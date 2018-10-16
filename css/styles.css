@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* chef aquino's special sauce */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  background: rgba(57,204,204,1);
+  background: -webkit-linear-gradient(top, rgba(57,204,204,1) 0%, rgba(34,122,122,1) 100%);
+  background: linear-gradient(to bottom, rgba(57,204,204,1) 0%, rgba(34,122,122,1) 100%);
+}
+
+.h1Container {
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.nav a {
+    padding: 0 30px;
+    color: white;
+    opacity: .6;
+    text-decoration: none;
+}
+
+.intro {
+    font-size: 28px;
+    opacity: .8;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.images {
+    height: 200px;
+    width: 200px;;
+}
